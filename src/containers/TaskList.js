@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Task from './Task';
+import Task from './TaskItem';
 
 class TaskList extends Component {
   renderList() {
@@ -8,8 +8,8 @@ class TaskList extends Component {
   render() {
     return (
       <div className="task-list">
-        <h1>Task List</h1>
-        {this.renderList()}
+        <h1 className="baba">Task List:</h1>
+        {[1,2,3].map((item) => <Task key={item}/>)}
       </div>
     );
   }

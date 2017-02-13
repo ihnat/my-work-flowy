@@ -1,0 +1,95 @@
+.task-list {
+  margin-left: 40px;
+  &-item {
+    list-style: none;
+    &__content {
+      margin: 10px 0;
+      height: 20px;
+      color: $fontcolor;
+      &-link {
+        vertical-align: middle;
+        display: inline-block;
+        margin-top: 1px;
+        margin-left:1px;
+        height: 18px;
+        width:18px;
+        color: #666;
+        background: white;
+        left:50px;
+        text-indent:5px;
+        font-size:24px;
+        font-family: Arial;
+        line-height:19px;
+        z-index:6;
+        border-radius:12px;
+      }
+      .with-children > .link {
+        background-color: #e0e0e0;
+      }
+      .open > .link {
+        background-color: white;
+      }
+      .link:hover {
+        cursor: pointer;
+        z-index: 8;
+        background-color: #aaa;
+      }
+      input.edit {
+        box-shadow: none;
+        display: inline;
+        background: transparent;
+        resize: none;
+        outline: 0;
+        border: 0;
+        padding: 0;
+        margin: 0;
+        width: 80%;
+        font-family: inherit;
+        font-size: inherit;
+        font-weight: inherit;
+        line-height: inherit;
+        letter-spacing: inherit;
+        color: inherit;
+        overflow: hidden;
+        position: relative;
+        word-wrap: break-word;
+        white-space: pre-wrap;
+        text-align: start;
+        -webkit-writing-mode: horizontal-tb;
+      }
+      input.edit:focus {
+        background-color: white;
+      }
+    }
+  }
+  li.shift1 {
+    margin-left: 30px;
+  }
+  li.shift2 {
+    margin-left: 60px;
+  }
+  li.shift3 {
+    margin-left: 90px;
+  }
+  li.shift4 {
+    margin-left: 120px;
+  }
+  li.shift5 {
+    margin-left: 150px;
+  }
+  li.shift6 {
+    margin-left: 180px;
+  }
+  li.shift7 {
+    margin-left: 210px;
+  }
+  li.shift8 {
+    margin-left: 240px;
+  }
+  li.shift9 {
+    margin-left: 270px;
+  }
+  ul.shift {
+   margin-bottom: 0px;
+  }
+}
