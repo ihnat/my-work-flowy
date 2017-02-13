@@ -1,13 +1,26 @@
 import React, { Component } from 'react';
+import CircleMenu from '../components/CircleMenu';
 
-class Task extends Component {
+// import '../css/TaskItem.css';
+
+
+class TaskItem extends Component {
   render() {
     return (
-      <div className="App">
-        <p>Task</p>
-      </div>
+      <div className="TaskItem">
+        <li className="folded">
+            <div className="task-wrappper">
+                <div className="task">
+                    <CircleMenu/>
+                    <input className="edit"/>
+                </div>
+            </div>
+        </li>
+      <div className="children folded"></div>
+      <div className="children"></div>
+    </div>
     );
   }
 }
 
-export default Task;
+export default TaskItem;

@@ -10,11 +10,11 @@ export default class Content extends Component {
   render() {
     return (
       <div className="col-md-6 content">
-              <Head/>
-              <div className="content-main">
-                  <TaskList/>
-              </div>
-              <Footer/>
+          <Head/>
+          <div className="content-main">
+              <TaskList/>
+          </div>
+          <Footer/>
       </div>
     )
   }
