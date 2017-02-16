@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './css/App.css';
-import Content from './containers/Content';
+import ContentList from './containers/ContentList';
 
 
 class App extends Component {
@@ -9,7 +9,7 @@ class App extends Component {
     return (
       <div className="App container-fluid">
         <div className="row">
-          <Content/>
+          <ContentList/>
       </div>
     </div>
     );

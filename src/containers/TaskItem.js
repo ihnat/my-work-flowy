@@ -1,24 +1,21 @@
 import React, { Component } from 'react';
-import CircleMenu from '../components/CircleMenu';
+// import Circle from '../components/Circle';
+import TaskItemBody from '../containers/TaskItemBody';
 
-// import '../css/TaskItem.css';
+import '../css/TaskItem.css';
 
 
 class TaskItem extends Component {
   render() {
     return (
-      <div className="TaskItem">
-        <li className="folded">
-            <div className="task-wrappper">
-                <div className="task">
-                    <CircleMenu/>
-                    <input className="edit"/>
-                </div>
-            </div>
-        </li>
-      <div className="children folded"></div>
-      <div className="children"></div>
-    </div>
+      <li className="task-item">
+          <div className="task-item-family">
+              <TaskItemBody/>
+              {/* <div className="task-item__sub">
+
+              </div> */}
+          </div>
+      </li>
     );
   }
 }
