@@ -1,0 +1,14 @@
+.popover-menu {
+  background: #fff;
+  border: 1px solid black;
+  border-radius: 3px;
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  margin-left: -50%;
+  padding: 3px;
+  z-index: 100;
+  &__item {
+    display: flex;
+  }
+}

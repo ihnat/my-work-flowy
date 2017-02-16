@@ -1,0 +1,11 @@
+.circle {
+  display: flex;
+  position: relative;
+  &__btn {
+    border-radius: 50%;
+    background: grey;
+    width: 17px;
+    height: 17px;
+    cursor: pointer;
+  }
+}
